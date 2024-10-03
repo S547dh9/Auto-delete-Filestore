@@ -45,7 +45,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the FORCE_SUB_CHANNEL value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL}")
-                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/weebs_support for support")
+                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/Flex_support_Chat for support")
                 sys.exit()
         if FORCE_SUB_CHANNEL2:
             try:
@@ -58,7 +58,7 @@ class Bot(Client):
                 self.LOGGER(__name__).warning(a)
                 self.LOGGER(__name__).warning("Bot can't Export Invite link from Force Sub Channel!")
                 self.LOGGER(__name__).warning(f"Please Double check the FORCE_SUB_CHANNEL2 value and Make sure Bot is Admin in channel with Invite Users via Link Permission, Current Force Sub Channel Value: {FORCE_SUB_CHANNEL2}")
-                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/weebs_support for support")
+                self.LOGGER(__name__).info("\nBot Stopped. https://t.me/Flex_support_Chat for support")
                 sys.exit()
         try:
             db_channel = await self.get_chat(CHANNEL_ID)
